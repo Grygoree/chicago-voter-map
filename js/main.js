@@ -14,7 +14,10 @@ $(document).ready(function(){
 
 // dummy data, key is ward number, value is the value
 var ward_data = {1:5,2:5,3:1,4:2,5:3,6:1,7:2,8:1,9:1,10:0,11:4,12:1,13:0,14:0,15:0,16:0,17:1,18:0,19:0,20:0,21:1,22:0,23:0,24:0,25:3,26:3,27:5,28:1,29:2,30:4,31:0,32:6,33:4,34:0,35:6,36:0,37:0,38:1,39:4,40:5,41:4,42:3,43:6,44:5,45:15,46:5,47:10,48:1,49:3,50:1};
-
+var vote_data = {}
+for (var i = 0; i <= 50; i++) {
+  //figure out how to do this
+}
 function draw_heat_map(){  
   // instantiate the map object
   var heat_map = $K.map('#heat-map');
